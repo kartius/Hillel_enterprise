@@ -1,9 +1,6 @@
-package org.hillel.lesson_4_multithreading_advanced.prodCons;
-
-import org.hillel.lesson_4_multithreading_advanced.benchmark.Benchmark;
+package org.hillel.lesson_5_multithreading_advanced.prodCons;
 
 import java.util.List;
-import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package org.hillel.lesson_4_multithreading_advanced.executorService;
+package org.hillel.lesson_5_multithreading_advanced.executorService;
 
 import java.util.List;
 import java.util.Queue;

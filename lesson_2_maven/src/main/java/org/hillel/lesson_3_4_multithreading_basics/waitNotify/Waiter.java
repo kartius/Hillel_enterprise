@@ -1,6 +1,4 @@
-package org.hillel.lesson_3_multithreading_basics.waitNotify;
-
-import org.hillel.lesson_3_multithreading_basics.Main;
+package org.hillel.lesson_3_4_multithreading_basics.waitNotify;
 
 public class Waiter implements Runnable {
 

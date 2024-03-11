@@ -1,4 +1,4 @@
-package org.hillel.lesson_3_multithreading_basics.waitNotify;
+package org.hillel.lesson_3_4_multithreading_basics.waitNotify;
 
 public class Message {
 

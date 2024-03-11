@@ -1,5 +1,6 @@
-package org.hillel.lesson_3_multithreading_basics.bank;
+package org.hillel.lesson_5_multithreading_advanced.bank;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Account {
@@ -9,6 +10,8 @@ public class Account {
     private int balance;
 
     private int id;
+
+    private AtomicInteger failedTransactionCount = new AtomicInteger(0);
 
     public Account(int balance, int id) {
         this.balance = balance;
@@ -38,5 +41,9 @@ public class Account {
 
     public ReentrantLock getLock() {
         return lock;
+    }
+
+    public AtomicInteger getFailedTransactionCount() {
+        return failedTransactionCount;
     }
 }

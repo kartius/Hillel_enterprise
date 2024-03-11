@@ -1,4 +1,4 @@
-package org.hillel.lesson_3_multithreading_basics;
+package org.hillel.lesson_3_4_multithreading_basics;
 
 public class MyRunnable implements Runnable {
     @Override

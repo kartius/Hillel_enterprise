@@ -1,4 +1,4 @@
-package org.hillel.lesson_4_multithreading_advanced.bank;
+package org.hillel.lesson_5_multithreading_advanced.bank;
 
 public class Main {
 

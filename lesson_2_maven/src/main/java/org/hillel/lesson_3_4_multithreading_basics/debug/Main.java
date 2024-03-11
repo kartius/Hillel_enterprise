@@ -1,4 +1,4 @@
-package org.hillel.lesson_3_multithreading_basics.debug;
+package org.hillel.lesson_3_4_multithreading_basics.debug;
 
 import java.util.ArrayList;
 import java.util.List;
