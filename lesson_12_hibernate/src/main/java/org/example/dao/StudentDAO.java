@@ -3,6 +3,8 @@ package org.example.dao;
 import lombok.AllArgsConstructor;
 import org.example.entity.Student;
 import org.hibernate.Session;
+import org.hibernate.query.criteria.JpaCriteriaQuery;
+import org.hibernate.query.criteria.JpaRoot;
 
 import java.util.List;
 
@@ -20,7 +22,12 @@ public class StudentDAO implements DAO<Student> {
 
   @Override
   public List<Student> findAll() {
-    return null;
+//    return session.createQuery("FROM Student", Student.class).getResultList();
+
+    JpaCriteriaQuery<Student> query = session.getCriteriaBuilder().createQuery(Student.class);
+    query.select(query.from(Student.class));
+
+    return session.createQuery(query).getResultList();
   }
 
   @Override
