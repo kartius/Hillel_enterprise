@@ -1,4 +1,4 @@
-package org.example.lesson_13_spring_data.repository;
+package org.example.lesson_13_spring_data.repository.jpa;
 
 import org.example.lesson_13_spring_data.dto.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
